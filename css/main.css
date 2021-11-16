@@ -2083,6 +2083,11 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   padding-bottom: 12rem;
 }
 
+#locationmap { 
+  height: 180px;
+ }
+
+
 #locations h1 {
   margin-bottom: 3.6rem;
 }
@@ -2197,6 +2202,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
  * locations 
  * ------------------------------------------------------------------- */
 
+
+
 @media only screen and (max-width: 1024px) {
   #locations .locations-content>[class*="col"] {
     width: 100% !important;
@@ -2259,6 +2266,7 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
     margin-right: 0;
   }
 }
+
 
 
 /* ===================================================================
