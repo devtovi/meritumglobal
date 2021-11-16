@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.css">
 
     <!-- script
    ================================================== -->
@@ -61,7 +62,7 @@
 				<li><a class="smoothscroll"  href="#what-we-do" title="what we do">What We Do</a></li>
 				<li><a class="smoothscroll"  href="#locations" title="locations">Locations</a></li>
 			</ul>
-            <a href="#download" title="mail us" class="button button-primary cta">Contact</a>
+            <a href="#contact" title="mail us" class="button button-primary cta">Contact</a>
 		</nav>
 
 		<a class="header-menu-toggle" href="#"><span>Menu</span></a>    	
@@ -88,12 +89,12 @@
                     </h1>
 
                     <div class="buttons" data-aos="fade-up">
-<!--                        <a href="#download" class="smoothscroll button stroke">
+<!--                        <a href="#contact" class="smoothscroll button stroke">
                             <span class="icon-circle-down" aria-hidden="true"></span>
                             Download Mission Statement
                         </a>
 -->
-                        <a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=39b54a" data-lity class="button stroke">
+                        <a href="#" data-lity class="button stroke">
                             <span class="icon-play" aria-hidden="true"></span>
                             Watch Our Video
                         </a>
@@ -115,13 +116,10 @@
                 <a href="#"><i class="fa fa-facebook-square"></i></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin-square"></i></a>
             </li>
             <li>
                 <a href="#"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
             </li>
         </ul>
         <!-- end home-social-list -->
@@ -382,19 +380,81 @@
 
     <!-- contact form
     ================================================== -->
-    <section id="download">
-
+    <section id="contact">
         <div class="row">
             <div class="col-full">
                 <h1 class="intro-header"  data-aos="fade-up">Contact Us</h1>
 
                 <p class="lead" data-aos="fade-up">
-                    <div class="subscribe-form">
+                        <div class="columns is-centered">
+                          <div class="column is-half">
+                            <form action="./submit.php" method="post">
+                              <div class="field">
+                                <label class="label" for="name">* Name</label>
+                                <div class="control">
+                                  <input
+                                    class="input"
+                                    id="name"
+                                    type="text"
+                                    name="name"
+                                    placeholder="Your name"
+                                    required
+                                  />
+                                </div>
+                              </div>
                 
-
-                    </div>	    
-                </p>
-            </div>
+                              <div class="field">
+                                <label class="label" for="email">* Email</label>
+                                <div class="control">
+                                  <input
+                                    class="input"
+                                    id="email"
+                                    type="email"
+                                    name="email"
+                                    placeholder="Email input"
+                                    required
+                                  />
+                                </div>
+                              </div>
+                
+                              <div class="field">
+                                <label class="label" for="message">* Message</label>
+                                <div class="control">
+                                  <textarea
+                                    class="textarea"
+                                    id="message"
+                                    name="message"
+                                    placeholder="Your message"
+                                    required
+                                  ></textarea>
+                                </div>
+                              </div>
+                
+                              <div class="field">
+                                <div class="control">
+                                  <label class="checkbox" for="newsletter">
+                                    <input
+                                      type="checkbox"
+                                      id="newsletter"
+                                      name="newsletter"
+                                      value="true"
+                                    />
+                                    Do you want to sign up to the newsletter?
+                                  </label>
+                                </div>
+                              </div>
+                
+                              <div class="field is-grouped">
+                                <div class="control">
+                                  <button class="button is-link">Send Message</button>
+                                </div>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div><!-- end contact form -->  
+                  </p>
+            </div>    
         </div>
 
     </section> <!-- end contact -->    
@@ -455,14 +515,14 @@
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#what-we-do">What we do</a></li>
-                        <li><a href="#download">Contact Us</a></li>
+                        <li><a href="#locations">Our Locations</a></li>
                     </ul>	      		
                             
                 </div> <!-- end footer-site-links --> 
 
                 <div class="col-four md-1-2 tab-full footer-subscribe">
 
-                    <h4>Contact</h4>
+                    <h4>Join our Newsletter</h4>
 
                     <p>Provide your email below to join our Mailing List.</p>
 
