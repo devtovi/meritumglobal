@@ -9,7 +9,7 @@
 
 	var cfg = {		
 		scrollDuration : 800, // smoothscroll duration
-		mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'  // mailchimp url
+		mailChimpURL   : 'https://tovifoods.us20.list-manage.com/subscribe/post?u=63d5d07602fbaea2fa2898c74&amp;id=f13374cfae'  // mailchimp url
 	},	
 
 	$WIN = $(window);	
@@ -251,7 +251,7 @@
 
 		// to use the mailchimp form, uncomment the 
 		// function call ssAjaxChimp() below:
-		// ssAjaxChimp(); 
+		ssAjaxChimp(); 
 
 	})();
  
