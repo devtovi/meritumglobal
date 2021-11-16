@@ -842,6 +842,15 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+.button-ongreen {
+  color: white!important;
+  border: 0.3rem solid white!important;
+}
+
+.button-ongreen:hover {
+  color: black!important;
+  background: white!important;
+}
 
 
 /* ===================================================================
