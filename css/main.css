@@ -820,7 +820,7 @@ button.large,
 button.stroke,
 .button.stroke {
   background: transparent !important;
-  color: #a5a5a5 !important;
+  color: #a5a5a5;
 }
 
 button.stroke:hover,
