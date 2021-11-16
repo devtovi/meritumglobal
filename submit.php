@@ -42,6 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($result_code === 200) {
 			$subscribed = true;
       	}
+          print_r($result);
 	}
 
 	// Send email functionality can go here. You can notify the user that they have been subscribed or not
