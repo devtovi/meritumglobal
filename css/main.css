@@ -2092,8 +2092,8 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   padding-bottom: 12rem;
 }
 
-#locationmap { 
-  height: 180px;
+#map { 
+  height: 400px;
  }
 
 
