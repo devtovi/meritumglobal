@@ -648,6 +648,12 @@
 	* ------------------------------------------------------ */
     var mymap = L.map('map').setView([51.505, -0.09], 13);
 
+    var marker = L.marker([0.11476599681577682,51.50360950708898]).addTo(mymap);
+    var marker = L.marker([23.85909009831144,54.14804770790943]).addTo(mymap);
+    var marker = L.marker([6.86294729108991,80.01476261144927]).addTo(mymap);
+    var marker = L.marker([6.86294729108991,80.01476261144927]).addTo(mymap);
+
+
     	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     	maxZoom: 18,
